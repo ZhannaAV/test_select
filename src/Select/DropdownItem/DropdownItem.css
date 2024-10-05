@@ -1,0 +1,35 @@
+.dropdown__item {
+	width: 100%;
+	height: 32px;
+	display: flex;
+	border: none;
+	background-color: transparent;
+	align-items: center;
+	padding: 8px 12px;
+	gap: 8px;
+	white-space: nowrap;
+}
+
+.dropdown__item:hover {
+	background-color: #E4EAFF;
+}
+
+.dropdown__item_selected {
+	border: 2px solid #4971FF;
+}
+
+.dropdown__itemLogo {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #4971FF;
+	display: flex;
+	pointer-events: none;
+}
+
+.dropdown__itemLogo span {
+	font-size: 10px;
+	margin: auto;
+	color: #ffffff;
+	pointer-events: none;
+}

@@ -1,0 +1,26 @@
+.select {
+	position: relative;
+}
+
+.select::after {
+	content: url("../assets/back.png");
+	position: absolute;
+	right: 8px;
+	top: 8px;
+}
+
+.select__input {
+	width: 361px;
+	height: 32px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	text-align: start;
+	padding: 0 8px;
+	cursor: pointer;
+	background-color: inherit;
+}
+
+.select__input:focus {
+	border: 1px solid #4971FF;
+}
